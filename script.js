@@ -12,8 +12,13 @@ console.log(element); */
 
 console.log(element); */
 
-const element = document.querySelector('h1')
+/* const element = document.querySelector('h1')
 
-element.innerText = 'Mudando texto'
+element.innerHTML = 'Mudando texto <small>adicionando small</small>' */
 
-console.log(element.textContent);
+const element = document.querySelector('input')
+
+
+element.value = "Texto base";
+
+console.log(element);
